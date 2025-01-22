@@ -1,0 +1,69 @@
+.hero>h1{
+    color: #6370D9;
+    text-align: center;
+}
+.hero .all_card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.hero .all_card .card{
+    width: 45%;
+    margin: 1rem;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.card img{
+    width: 50%;
+    height: 100%;
+
+}
+.card .card_data h1{
+    text-align: center;
+    color: #6370D9;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.card .card_data p{
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+.card .card_data a{
+    color: #6370D9;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-decoration-color: black;
+}
+@media (max-width: 1200px) {
+    html{
+        font-size: 0.8rem;
+    }
+  }
+@media (max-width: 900px) {
+    html{
+        font-size: 0.5rem;
+    }
+  }
+@media (max-width: 425px) {
+    .hero .all_card{
+        flex-wrap: wrap;
+    }
+    .hero .all_card .card{
+        width: 100%;
+    }
+    .hero .all_card .card img{
+        width: 30%;
+    }
+  }

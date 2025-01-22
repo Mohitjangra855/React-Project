@@ -1,0 +1,1 @@
+you also need to install modules folder and use your own api url in /pages folder home.jsx file

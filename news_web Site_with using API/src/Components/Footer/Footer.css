@@ -1,0 +1,38 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #EDEDF9;
+    min-height: 10rem;
+}
+
+.footer-left {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.footer-left img {
+    width: 20%;
+}
+
+.footer-right {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.footer-right li {
+    list-style: none;
+    font-size: 1rem;
+    line-height: 2.5rem;
+
+}
+
+.footer-right .first_li {
+    color: #6370D9;
+    font-weight: 600;
+}
