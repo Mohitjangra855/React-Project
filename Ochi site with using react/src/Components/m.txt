@@ -1,0 +1,14 @@
+ {"AH2 &MATT HORN".split("").map((item, index) => {
+                  return (
+                    <motion.span
+                      className="inline-block"
+                      intial={{ y: "100%" }}
+                      animate={isHovering ? { y: "0" } : { y: "100%" }}
+                      transition={{ ease: [0.22, 1, 0.36, 1] ,delay:index*.06}}
+                      key={index}
+                    >
+                      {item}
+                    </motion.span>
+                  );
+                })
+              }
